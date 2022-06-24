@@ -1,0 +1,27 @@
+CREATE DATABASE BooksDB;
+
+USE BooksDB;
+
+
+CREATE TABLE BooksDB(
+
+  id INTEGER PRIMARY KEY,
+  
+  name TEXT,
+
+  age INTEGER,
+
+  weight REAL);
+
+
+INSERT INTO BooksDB VALUES(1,"Jacela",32,165.5);
+
+INSERT INTO BooksDB VALUES(2,"Foxly",30,152.4);
+
+INSERT INTO BooksDB VALUES(3,"Pumpkin",NULL,NULL);
+
+INSERT INTO BooksDB VAKLUES(3,"Pumpkin",40,134.5);
+
+
+
+SELECT * FROM BooksDB; 
